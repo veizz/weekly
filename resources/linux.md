@@ -12,6 +12,9 @@ http://www.andrew.cmu.edu/course/15-749/READINGS/required/
 
 ## basic
 
+**An Introduction to Unix**  
+http://www.oliverelliott.org/article/computing/tut_unix/  
+
 **race condition**  
 A race condition occurs when two or more threads can access shared data and they try to change it at the same time. Because the thread scheduling algorithm can swap between threads at any time, you don't know the order in which the threads will attempt to access the shared data. Therefore, the result of the change in data is dependent on the thread scheduling algorithm, i.e. both threads are "racing" to access/change the data.   
 http://stackoverflow.com/questions/34510/what-is-a-race-condition  
@@ -65,3 +68,7 @@ zsh  http://macshuo.com/?p=676
 [The problem with select() vs. poll() (code)]
 (http://beesbuzz.biz/blog/e/2013/10/10-the_problem_with_select_vs_poll.php)  
 [poll vs select vs event-based](http://daniel.haxx.se/docs/poll-vs-select.html)  
+
+## tools
+
+[neu_sshbl_hosts](http://antivirus.neu.edu.cn/ssh/lists/neu_sshbl_hosts.deny)
